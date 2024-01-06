@@ -12,3 +12,8 @@ test_03.innerHTML = 'php with laravel';
 // the major difference between 
 const test_04 = document.querySelector('title');
 test_04.innerHTML = 'php with laravel';
+///
+function click_button(){
+   click_button =  document.getElementById('button_id').style.color = 'green';
+   return click_button;
+}
